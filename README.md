@@ -23,31 +23,14 @@ This Expense Tracker application built with Vue 3 and the Composition API helps 
 
 Feel free to fork this project and contribute! We welcome pull requests for bug fixes, new features, and improvements.
 
-**Screenshots:**
-
-(Include screenshots showcasing the key features of the application)
-
 **Tech Stack:**
 
 - Vue 3
 - Composition API
-- [Optional: List any additional libraries or frameworks used]
-
-**License:**
-
-[Choose a license for your project, such as MIT or Apache]
+- TailwindCSS
 
 **We hope this Expense Tracker helps you take control of your finances and spend smarter!**
 
 **Feel free to leave feedback, suggestions, and bug reports.**
 
 **Enjoy saving!**
-
-**Additional Notes:**
-
-- You can customize this Read.me further by adding information about the project's motivation, specific functionalities, and future plans.
-- Consider highlighting unique features or selling points of your Expense Tracker.
-- Provide clear instructions for installation and usage.
-- Make the Read.me visually appealing with headings, code snippets, and screenshots.
-
-**Remember, a well-written Read.me will attract users and encourage contributions to your project!**
