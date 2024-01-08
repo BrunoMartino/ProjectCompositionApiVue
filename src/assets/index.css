@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 flex justify-center items-center;
+}
+.title__main {
+  @apply text-2xl font-semibold py-4 mt-4 text-left;
+}
+.subtitle {
+  @apply text-sm uppercase font-bold font-mono;
+}
+#balance {
+  @apply text-3xl font-mono font-bold py-4 px-4 bg-gray-50 border-2 border-gray-200 rounded-md;
+}
+.inc-exp-container {
+  @apply my-8 py-4 flex justify-evenly items-center bg-white border-2 border-gray-200 text-center relative;
+}
+.inc-exp-container::before {
+  @apply content-[''] absolute w-[2px] h-10 bg-gray-200;
+}
+.money {
+  @apply font-mono font-bold text-center;
+}
+.money.plus {
+  @apply text-green-600;
+}
+.money.minus {
+  @apply text-red-800;
+}
+.title2 {
+  @apply text-lg font-semibold mb-4;
+}
+.list {
+  @apply flex flex-col;
+}
+.list li {
+  @apply bg-white py-4 px-4 mb-4 font-semibold flex justify-between items-center relative rounded-md;
+}
+.list li.minus {
+  @apply border-r-8 border-r-red-800;
+}
+.list li.plus {
+  @apply border-r-8 border-r-green-600;
+}
+.delete-btn {
+  @apply absolute -left-6 text-white bg-red-700 py-1 px-2 rounded-md hidden;
+}
+.list li:hover .delete-btn {
+  @apply block;
+}
+#form {
+  @apply flex flex-col;
+}
+.form-control {
+  @apply flex flex-col;
+}
+.form-control input {
+  @apply py-2 px-4 mt-2 mb-4 text-lg outline-purple-500 rounded-s-md;
+}
+.btn {
+  @apply w-full bg-purple-700 text-white py-2 font-mono uppercase text-sm font-bold mb-10;
+}
